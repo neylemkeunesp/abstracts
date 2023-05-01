@@ -1,0 +1,31 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{As Equações de Maxwell}
+\author{Sydney}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Introdução}
+  As equações de Maxwell são um conjunto de quatro equações diferenciais parciais que descrevem o comportamento dos campos elétrico e magnético, bem como suas interações com a matéria. Elas foram formuladas por James Clerk Maxwell no século XIX e unificaram as leis da eletricidade e do magnetismo. As equações de Maxwell são fundamentais para a física moderna e têm aplicações em diversas áreas, como óptica, telecomunicações, física de partículas e relatividade.
+\end{frame}
+
+\begin{frame}{Forma integral das equações de Maxwell}
+  As equações de Maxwell podem ser escritas na forma integral usando o teorema de Gauss e o teorema de Stokes. Nessa forma, elas relacionam os fluxos e as circulações dos campos elétrico e magnético através das superfícies e contornos fechados com as cargas elétricas e as correntes elétricas presentes na região. As quatro equações na forma integral são:
+
+  \begin{align*}
+    \oint_S \mathbf{E} \cdot d\mathbf{A} &= \frac{Q}{\varepsilon_0} & \text{(Lei de Gauss para o campo elétrico)} \\
+    \oint_S \mathbf{B} \cdot d\mathbf{A} &= 0 & \text{(Lei de Gauss para o campo magnético)} \\
+    \oint_C \mathbf{E} \cdot d\mathbf{l} &= - \frac{\partial}{\partial t} \int_S \mathbf{B} \cdot d\mathbf{A} & \text{(Lei da indução de Faraday)} \\
+    \oint_C \mathbf{B} \cdot d\mathbf{l} &= \mu_0 I + \mu_0\varepsilon_0 	\frac{\partial}{\partial t}\int_S		\mathbf {E}\cdot d{\mathbf {A}} &		(\text {Lei da força magnética (Lei de Ampère-Maxwell)})
+  \end{align*}
+
+  onde $S$ é uma superfície fechada, $C$ é um contorno fechado, $\mathbf E$ é o campo elétrico, $\mathbf B$ é o campo magnético, $Q$ é a carga elétrica total dentro da superfície $S$, $\varepsilon_0$ é a permissividade elétrica do vácuo, $\mu_0$ é a permeabilidade magnética do vácuo e $I$ é a corrente elétrica total que 
+\end{frame}
+\end{document}

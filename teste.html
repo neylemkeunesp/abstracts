@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizando SVG</title>
+</head>
+<body>
+    <svg width="200" height="200">
+        <path d="M 60 60 L 140 60 L 100 100 L 20 100 Z" fill="none" stroke="black" stroke-width="2"/>
+        <line x1="100" y1="60" x2="100" y2="100" stroke="black" stroke-width="2"/>
+        <line x1="60" y1="100" x2="100" y2="100" stroke="black" stroke-width="2"/>
+        <line x1="100" y1="60" x2="60" y2="100" stroke="black" stroke-width="2"/>
+        <text x="70" y="90" font-size="12">A</text>
+        <text x="150" y="90" font-size="12">B</text>
+        <text x="100" y="50" font-size="12">C</text>
+        <text x="30" y="110" font-size="12">D</text>
+        <text x="95" y="70" font-size="12">G</text>
+        <text x="65" y="110" font-size="12">E</text>
+        <text x="130" y="110" font-size="12">F</text>
+        <text x="85" y="90" font-size="12">H</text>
+      </svg>
+      A) 60°
+      B) 75°
+      C) 90°
+      D) 105°
+      E) 120°
+      
+      Explanation: Since ABCD is a parallelogram, angles A and C are congruent, as well as angles B and D. Therefore, angle ACD is equal to angle BDC. Since AE and CF are altitudes, triangles AEG and CFH are right triangles. Since AG and BH are angle bisectors, angles GAB and HBC are congruent, and angles AGB and CHB are congruent. Therefore, triangles AGB and CHB are similar. We can use this information to find the measure of angle GHB as follows:
+      
+      Let x = measure of angle ACD = measure of angle BDC
+      Let y = measure of angle GAB = measure of angle HBC
+      Let z = measure of angle GHB
+      
+      Then, we have:
+      
+      y + z + (180 - x - y) = 180 (angles in triangle AGB)
+      y + z + (180 - x - y) = 180 (angles in triangle CHB)
+      y + z - x = 0
+      y = x/2
+      y + z + (180 - x - y) = 180
+      z = x/2 - 90
+      
+      Substituting x = 180 - y - z, we get:
+      
+      x = 180 - y - z
+      x = 180 - x/2 - 90
+      x/2 = 90
+      x = 180
+      
+      Therefore, angle ACD and angle BDC each measure 180/2 = 90°. Since ABCD is a parallelogram, angle GAB and angle HBC are also congruent and each measure 90 - y = 45°. Thus, angle GHB measures:
+      
+      z = x/2 - 90 = 45°
+      
+      Therefore, the correct answer is option A) 60°.
+      
+      
+      
+      
+      
+      
+      
+
+</body>
+</html>
+
+
+
+
+
