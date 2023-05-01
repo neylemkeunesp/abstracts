@@ -15,7 +15,6 @@ import subprocess
 import re
 
 # Set up the OpenAI API client :
-openai.api_key = "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"
 
 # Set up the model (more models, visit https://beta.openai.com/playground)
 model_engine = "gpt-3.5-turbo"
